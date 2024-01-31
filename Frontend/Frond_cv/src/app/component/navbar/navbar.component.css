@@ -1,0 +1,49 @@
+:host {
+    height: 10vh;
+
+}
+
+.c_navbar {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #010326;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    padding: 0 20px; 
+}
+
+.nav_left {
+    display: flex;
+    align-items: center; 
+}
+
+.menu_logo {
+    max-height: 80px;
+    min-height: 60px;
+    height: 10vh; 
+    width: auto;
+}
+
+.nav_seccions {
+    display: flex;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end; 
+}
